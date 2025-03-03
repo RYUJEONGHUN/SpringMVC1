@@ -88,6 +88,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println();
     }
 
+
     private void printEtc(HttpServletRequest request) {
         System.out.println("--- 기타 조회 start ---");
         System.out.println("[Remote 정보]");
